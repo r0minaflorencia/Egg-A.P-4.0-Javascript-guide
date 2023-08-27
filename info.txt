@@ -1,1 +1,1 @@
-Estos son ejercicios de la guía de Javascript de Egg (Argentina Programa)
+Estos son ejercicios de la guía de Javascript de Egg, donde también utilizo un poquito de CSS
