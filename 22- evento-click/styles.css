@@ -1,0 +1,31 @@
+/* Selector universal */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Selector de etiqueta */
+body {
+  height: 100vh; /* Le doy un valor del 100% al vh(View Height) */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 5px solid #fdfa23;
+  background-color: #f5da0c;
+}
+
+button {
+  font-size: 20px;
+  color: white;
+  border-radius: 20px;
+  background-color: #008cba;
+  margin: 15px;
+  padding: 10px 30px;
+  border: 3px solid #008cba;
+  user-select: none;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}

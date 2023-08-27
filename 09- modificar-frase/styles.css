@@ -1,0 +1,22 @@
+/* Selector universal */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Selector de etiqueta */
+body {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 5px solid #fdfa23;
+  background-color: #f5da0c;
+}
+
+span {
+  font-weight: bold;
+}

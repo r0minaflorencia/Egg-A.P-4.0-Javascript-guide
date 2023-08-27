@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS-->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <div>
+      <h1>EGG, Argentina Programa</h1>
+      <h2>Ejercicio 24</h2>
+      <br />
+      <p>
+        Escribir un programa de JavaScript que a través de un formulario calcule
+        el radio de un circulo y lo muestre en el HTML.
+      </p>
+      <br />
+      <div id="formulario">
+        <br />
+        <p><span>Formulario</span></p>
+        <br />
+        <p>
+          <label>
+            Seleccionar opción a traves de la cual se va a calcular el radio del
+            circulo:
+            <select id="opcion">
+              <option value="diametro">Diametro</option>
+              <option value="area">Area</option>
+            </select>
+          </label>
+        </p>
+        <br />
+        <form>
+          <p><u> Ingresá el valor del tipo seleccionado: </u></p>
+          <br />
+          <label for="area"> <input id="input" type="text" /> </label>
+          <button id="enviar" type="button">enviar</button>
+        </form>
+        <br />
+      </div>
+    </div>
+    <footer>Romina Avalos &copy;</footer>
+
+    <!--Javascript-->
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>

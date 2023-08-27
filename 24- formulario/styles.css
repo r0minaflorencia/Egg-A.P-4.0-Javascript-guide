@@ -1,0 +1,51 @@
+/* Selector universal */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Selector de etiqueta*/
+body {
+  height: 100vh; /* Le doy un valor del 100% al vh(View Height) */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 5px solid #fdfa23;
+  background-color: #f5da0c;
+}
+
+button {
+  font-size: 15px;
+  color: white;
+  border-radius: 5px;
+  background-color: #008cba;
+  border: 3px solid #008cba;
+  user-select: none;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+span {
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+footer {
+  margin-inline-end: auto;
+  width: 100%;
+}
+
+/* Selector de ID */
+#formulario {
+  border: 1px solid black;
+  background-color: rgb(226, 179, 26);
+}
+
+#formulario input {
+  height: 1.5rem;
+  border-bottom: 2em;
+}
